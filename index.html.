@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academia Guigo POA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-shadow: 2px 2px 6px #000;
+      font-size: 2rem;
+      text-align: center;
+      padding: 20px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+    .plans {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .plan {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      width: 250px;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Guigo POA Jiu-Jitsu</h1>
+    <p>Jiu-Jitsu para todos. Evolua todo dia.</p>
+  </header>
+
+  <nav>
+    <a href="#planos">Planos de Treino</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="hero">
+    Jiu-Jitsu é evolução — técnica, mente e corpo.
+  </div>
+
+  <div class="section" id="planos">
+    <h2>Planos</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Básico</h3>
+        <p>Acesso livre</p>
+        <p><strong>R$ 89/mês</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Intermediário</h3>
+        <p>+ Aulas coletivas</p>
+        <p><strong>R$ 129/mês</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Premium</h3>
+        <p>+ Personal trainer</p>
+        <p><strong>R$ 199/mês</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos a Guigo POA, uma academia tradicional de Jiu-Jitsu focada em ensino técnico, respeito e evolução contínua de cada aluno.</p>
+  </div>
+
+  <div class="section" id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@slashfit.com</p>
+    <p>WhatsApp: (00) 00000-0000</p>
+  </div>
+
+  <footer>
+    Guigo POA © 2025 — Todos os direitos reservados
+  </footer>
+</body>
+</html>
